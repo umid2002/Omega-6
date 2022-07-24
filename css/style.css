@@ -108,7 +108,7 @@ a {
         top: 0;
         left: 0;
         background-color: #e2e2e3;
-        width: 40vw;
+        width: 100vw;
         height: 100%;
         padding-top: 150px;
         padding-left: 0;
@@ -127,6 +127,7 @@ a {
         display: inline-block;
         font-size: 20px;
         margin-right: 5px;
+        z-index: 10;
     }
 
     .logo-name {
@@ -356,7 +357,7 @@ a {
 }
 
 .carusel-page {
-    margin: 87px 8px 0 0;
+    margin-bottom: 8px;
     display: block;
     font-family: 'Circular Std';
     font-size: 16px;
@@ -364,7 +365,7 @@ a {
 }
 
 .carusel-about {
-    margin-bottom: 32px;
+    margin-bottom: 15px;
     font-family: 'Circular Std';
     font-size: 24px;
     line-height: 28px;
@@ -378,7 +379,7 @@ a {
     line-height: 39px;
     letter-spacing: -0.656526px;
     color: #19191B;
-    width: 460px;
+    width: 75%;
 }
 
 .carusel-right {
@@ -642,6 +643,9 @@ a {
         justify-content: center;
         align-items: center;
     }
+    .box-reference{
+        width: 60%;
+    }
 }
 
 @media(max-width:767px) {
@@ -778,6 +782,7 @@ a {
 .comment-list {
     margin: 0;
     justify-content: space-between;
+    margin-bottom: 53px;
 }
 
 .commit-item {
@@ -933,6 +938,7 @@ a {
 /* ------------author start------------ */
 .author-box {
     margin: auto;
+    margin-bottom: 115px;
 }
 
 .author-img {
@@ -1028,6 +1034,7 @@ a {
 
 .pricing-list {
     margin: auto;
+    margin-bottom: 60px;
     justify-content: center;
 }
 
@@ -1226,8 +1233,7 @@ a {
 
 /* --------------question start----------- */
 .question-list {
-    margin-top: 63px;
-
+    padding-bottom: 120px;
 }
 
 .question-menu {
@@ -1429,5 +1435,11 @@ a {
 /* ---------------- footer-end-end --------------- */
 
 
-
-/* ============END=========== */
+/* Swiper */
+.swiper {
+    width: 100%;
+    height: 390px;
+}
+.swiper-slide{
+    align-items: center;
+}
