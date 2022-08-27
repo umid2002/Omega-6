@@ -630,12 +630,12 @@ a {
 .learn-get {
     display: block;
     padding: 17px 30px 18px 17px;
-    width: 254px;
     font-family: 'Circular Std';
     font-size: 21px;
     line-height: 25px;
     letter-spacing: -0.656526px;
     color: #19191B;
+    width: 80%;
 }
 
 @media(max-width:991px) {
@@ -742,6 +742,11 @@ a {
 @media(max-width:767px) {
     .book-buy {
         display: none;
+    }
+    .learn-item{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -932,6 +937,9 @@ a {
 
     .section-two {
         padding-bottom: 40px;
+    }
+    .commit-item{
+        width: 85%;
     }
 }
 
